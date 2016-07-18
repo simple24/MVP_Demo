@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".user.view.LoginActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="165dp"
+        android:background="@color/colorPrimary"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="91.5dp"
+        android:layout_marginLeft="52dp"
+        android:text="@string/app_name"
+        android:textSize="30sp"
+        android:textColor="@color/textColorPrimary"/>
+
+    <com.simple.mvpdemo.ui.OneKeyClearEditText
+        android:id="@+id/edt_phone_number"
+        android:layout_width="274.5dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="204.5dp"
+        android:layout_marginLeft="42.5dp"
+        android:textSize="16sp"
+        android:hint="@string/hint_phone_number"
+        android:inputType="phone"/>
+
+    <com.simple.mvpdemo.ui.OneKeyClearEditText
+        android:id="@+id/edt_login_password"
+        android:layout_width="274.5dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="264.5dp"
+        android:layout_marginLeft="42.5dp"
+        android:textSize="16sp"
+        android:hint="@string/hint_login_password"
+        android:inputType="numberPassword"/>
+
+    <Button
+        android:id="@+id/btn_login"
+        android:layout_width="256dp"
+        android:layout_height="44dp"
+        android:layout_marginTop="332dp"
+        android:layout_marginLeft="52dp"
+        android:shadowRadius="8"
+        android:background="@drawable/bg_login_button"
+        android:text="@string/btn_login"
+        android:textSize="16sp"
+        android:textColor="@color/textColorPrimary"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="396dp"
+        android:layout_marginLeft="93dp"
+        android:text="@string/label_forget"
+        android:textSize="14sp"
+        android:textColor="@color/colorPrimary"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="396dp"
+        android:layout_marginLeft="221dp"
+        android:text="@string/label_registered"
+        android:textSize="14sp"
+        android:textColor="@color/colorPrimary"/>
+
+    <RelativeLayout
+        android:layout_width="114dp"
+        android:layout_height="32dp"
+        android:layout_marginTop="509.5dp"
+        android:layout_marginLeft="63dp"
+        android:background="@drawable/bg_qq_login_button">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8.5dp"
+            android:layout_marginBottom="8.5dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="81.5dp"
+            android:src="@drawable/ic_qq_login"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="6dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="48.5dp"
+            android:layout_marginRight="16dp"
+            android:text="@string/btn_qq_login"
+            android:textSize="14dp"
+            android:textColor="@color/textColorPrimary"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="114dp"
+        android:layout_height="32dp"
+        android:layout_marginTop="509.5dp"
+        android:layout_marginLeft="186dp"
+        android:background="@drawable/bg_weixin_login_button">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="9.5dp"
+            android:layout_marginBottom="7.5dp"
+            android:layout_marginLeft="15.5dp"
+            android:layout_marginRight="80dp"
+            android:src="@drawable/ic_weixin_login"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="6dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="42.5dp"
+            android:layout_marginRight="15dp"
+            android:text="@string/btn_weixin_login"
+            android:textSize="14dp"
+            android:textColor="@color/textColorPrimary"/>
+
+    </RelativeLayout>
+
+</RelativeLayout>

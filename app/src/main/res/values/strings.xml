@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">范例</string>
+    <string name="hint_phone_number">请输入手机号</string>
+    <string name="hint_login_password">请输登录密码</string>
+    <string name="label_forget">忘记密码</string>
+    <string name="label_registered">立即注册</string>
+    <string name="btn_login">登录</string>
+    <string name="btn_qq_login">QQ登录</string>
+    <string name="btn_weixin_login">微信登录</string>
+</resources>
